@@ -3,7 +3,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import { View } from 'react-native';
-import Card from "./src/components/Card";
+import State from './src/components/states/State';
 
 const sayHello = label => {
   console.log("Merhaba" + label);
@@ -12,7 +12,7 @@ const sayHello = label => {
 function App() {
   return (
     <View>
-      <Card></Card>
+      <State></State>
     </View>
   );
 }
