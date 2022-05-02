@@ -12,7 +12,7 @@ const sayHello = label => {
 function App() {
   return (
     <View>
-      <Card name="John Doe" text="bişi bişi"></Card>
+      <Card></Card>
     </View>
   );
 }
