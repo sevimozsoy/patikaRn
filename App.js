@@ -3,6 +3,7 @@
 /* eslint-disable prettier/prettier */
 import React from 'react';
 import { View } from 'react-native';
+import Counter from './src/components/lifecycle/Counter';
 import State from './src/components/states/State';
 
 const sayHello = label => {
@@ -12,7 +13,7 @@ const sayHello = label => {
 function App() {
   return (
     <View>
-      <State></State>
+      <Counter></Counter>
     </View>
   );
 }
