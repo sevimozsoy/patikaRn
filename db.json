@@ -1,9 +1,8 @@
 {
-  "posts": [
+  "users": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "username":"johnd",
+      "password":"m38rmF$"
     }
   ],
   "comments": [
